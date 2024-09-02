@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  height: 120px;
+  /* top: -6270px;
+left: 1921px;
+padding: 27px 100px 26.78px 100px;
+gap: 0px;
+opacity: 0px; */
+  background-color: #000099;
+}
+.header-name{
+  width: 178px;
+height: 70px;
+position: absolute;
+top: 25px;
+left: 1100px;
+padding: 10px 0px 0px 0px;
+gap: 15px;
+opacity: 0px;
+display: flex;
+
+}
+
+.header-name-icon{
+  width: 48px;
+height: 48px;
+top: 35px;
+left: 1108px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.header-name-text {
+  width: 93px;
+  height: 38px;
+  top: 33px;
+  left: 1080px;
+  /* padding: 5px 0px 5px 0px; */
+  gap: 10px;
+  opacity: 0px;
+
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.2px;
+  text-align: left;
+}
+.Indigologo {
+  width: 220px;
+  height: 66.22px;
+  position: absolute;
+  top: 27px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+}

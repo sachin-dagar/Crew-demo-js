@@ -1,0 +1,46 @@
+input {
+  /* padding: 8px; */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 8px !important;
+  background-color: #ffffff !important;
+  /* margin: 0px; */
+  
+}
+.MuiInputLabel-root.MuiInputLabel-formControl {
+  cursor: default;
+  top: -4px !important;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  /* line-height: 15.73px; */
+  text-align: left;
+
+  color: #535353;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root {
+  font-family: Inter;
+  font-size: 13px !important;
+  font-weight: 400;
+  /* line-height: 15.73px; */
+  text-align: left;
+
+  color: #535353;
+}
+
+
+.MuiInputBase-root.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline{
+  border: 0.5px solid #ABABAB !important;
+  /* border-radius: 14px; */
+}
+
+.MuiTypography-root {
+  font-size: 13px !important;
+  font-family: Poppins !important;
+  /* font-size: 10px; */
+  font-weight: 500 !important;
+  line-height: 15px !important;
+  text-align: left;
+}

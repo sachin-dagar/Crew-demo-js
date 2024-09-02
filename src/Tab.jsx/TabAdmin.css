@@ -1,0 +1,35 @@
+.container {
+  width: 874px;
+  height: 54px;
+  top: 160px;
+  left: 455px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;
+  /* background-color: blueviolet; */
+  display: flex;
+  position: absolute;
+}
+
+.btn {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+
+  background: #009de0;
+  box-shadow: 0px 3px 0px 0px #000099;
+  width: 134px;
+  height: 34px;
+  /* padding: 0px 1px 4px 1px; */
+  gap: 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn:hover {
+  background: #000099;
+  box-shadow: 0px 3px 0px 0px #009de0;
+}

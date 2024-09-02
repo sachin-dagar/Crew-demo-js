@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #000099;
+}
+
+.Indigologo {
+  width: 220px;
+  height: 66.22px;
+  position: absolute;
+  top: 27px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background-color: #ffffff;
+  color: #000099;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 438px;
+  height: 70px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.63px;
+  text-align: left;
+}
+
+.arrow {
+  margin-left: 10px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 120%;
+  right: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 438px;
+  border-radius: 4px;
+}
+
+.dropdown-item {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.2px;
+  text-align: left;
+  color: #000099;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 0.5px solid #009de0;
+}
+
+/* .dropdown-item:last-child {
+    border-bottom: none;
+  } */
+
+.dropdown-item:hover {
+  background-color: #009de0;
+  color: #ffffff;
+}
+a {
+  font-weight: 500;
+  color: #000099;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #ffffff;
+}
+
+.link {
+  display: block;
+  width: 100%;
+  /* padding: 10px; */
+}

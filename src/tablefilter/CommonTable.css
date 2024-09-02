@@ -1,0 +1,123 @@
+.main {
+  display: flex;
+}
+
+.container1 {
+  max-width: 850px !important;
+  margin: 20px auto;
+  padding: 20px 40px 20px 40px;
+  /* background-color: #d32b2b4d !important; */
+  background: #ffffff4d;
+
+  border-radius: 20px;
+  border: 0.4px solid #0000001a;
+  box-shadow: 0px 0px 20px 1px #0000000d;
+
+  height: 230px;
+  position: absolute;
+  top: 230px;
+  left: 165px;
+}
+.container2 {
+  width: 220px;
+  height: 230px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff4d !important;
+  border-radius: 20px;
+  border: 0.4px solid #0000001a;
+  box-shadow: 0px 0px 20px 1px #0000000d;
+
+  position: absolute;
+  top: 230px;
+  left: 1055px;
+}
+
+.Filter-heading {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31.47px;
+  text-align: left;
+
+  color: #000099;
+}
+
+.FilterLogo {
+  display: flex;}
+
+.TimeLogo {
+  display: flex;
+  /* justify-content: center; */
+  gap: 5px;
+}
+.date-picker {
+  /* background-color: #000099 !important; */
+  display: flex;
+  gap: inherit;
+}
+
+.Search-btn {
+  width: 80px;
+  height: 40px;
+  /* padding: 10px 0px 0px 0px; */
+  /* gap: 10px; */
+  border-radius: 4px;
+  border: 0.5px solid #000099;
+  opacity: 0px;
+  font-family: Inter;
+  /* font-size: 14px; */
+  font-weight: 500;
+  line-height: 13.31px;
+  text-align: left;
+  color: #000099;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SearchIcon {
+  width: 18px;
+  height: 18px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.Time-box {
+  width: 240px;
+  height: 75px;
+  gap: 15px;
+  opacity: 0px;
+  display: flex;
+}
+
+.Time-box-title {
+  width: 80px;
+  height: 40px;
+  padding: 8px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;
+  letter-spacing: 0.01em;
+  font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #535353;
+}
+.Time-box-num {
+  /* width: 30px; */
+  height: 24px;
+  padding: 14px 30px 10px 30px;
+  gap: 10px;
+  border-radius: 6px;
+  border: 0.5px 0px 0px 0px;
+  opacity: 0px;
+  background: #ffffff;
+  border: 0.5px solid #ababab;
+  font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
